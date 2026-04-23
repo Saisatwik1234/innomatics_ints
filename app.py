@@ -11,7 +11,7 @@ from langgraph.checkpoint.memory import MemorySaver
 # ==========================================
 # 1. SETUP & LANGGRAPH LOGIC
 # ==========================================
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD4Ed9JRDOpX1EhE0x5n6BgUoiyVILLLZg" # Add your key!
+os.environ["GOOGLE_API_KEY"] = "********" # Add your key!
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0)
 embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
